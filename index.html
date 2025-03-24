@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Комплексна система</title>
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
@@ -11,10 +11,498 @@
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
-    <header class="header"><div class="container"></div></header>
+    <header class="header">
+      <div class="container">
+        <div class="short-container">
+          <p class="short-info">
+            <span>Комплексна система з 5 курсів</span> для створення та
+            масштабування освітнього бізнесу
+          </p>
+        </div>
+      </div>
+    </header>
     <main>
-      <section></section>
+      <div class="hero-wrapper">
+        <section class="hero">
+          <img
+            src="./src/img/hero/money-2x.png"
+            alt="meney"
+            class="hero-money"
+          />
+          <div class="container">
+            <p class="start">
+              старт <span id="dateElement"></span>
+              <span id="monthElement"></span>
+            </p>
+            <h1 class="title">
+              <span class="accent-1">Отримайте перевірену технологію</span>
+              Створення, запуску та масштабування вашого освітнього проекту і
+              виходу <span class="accent-2">на $5000-$10000</span>
+            </h1>
+            <ul class="list">
+              <li class="list-item">
+                <img src="./src/img/hero/check.svg" alt="check" width="21" />
+                <p class="item-text">Комплексне рішення на ваш запит</p>
+              </li>
+              <li class="list-item">
+                <img src="./src/img/hero/check.svg" alt="check" width="21" />
+                <p class="item-text">
+                  Всі інструменти від створення курсу до приємних грошей
+                </p>
+              </li>
+              <li class="list-item">
+                <img src="./src/img/hero/check.svg" alt="check" width="21" />
+                <p class="item-text">
+                  Весь шлях за 2-3 місяці замість 2-3 років
+                </p>
+              </li>
+              <li class="list-item">
+                <img src="./src/img/hero/check.svg" alt="check" width="21" />
+                <p class="item-text">Найактуальніші інструменти 2025 року</p>
+              </li>
+            </ul>
+            <a class="btn" href=""
+              >детальніше <br />
+              <span>знижка -99%</span></a
+            >
+          </div>
+        </section>
+        <section class="bonuses">
+          <img
+            src="./src/img/bonus/gift-2x.png"
+            alt="decor-gift"
+            class="decor-gift-2"
+          />
+          <div class="container">
+            <div class="bonuses">
+              <div class="bonus-title-container">
+                <img
+                  src="./src/img/bonus/gift-2x.png"
+                  alt="decor-gift"
+                  class="decor-gift-1"
+                />
+                <h3 class="bonus-title">
+                  Приєднуйтесь до кінця зворотнього відліку і
+                  <span>забирайте просто неймовірні бонуси</span>
+                </h3>
+              </div>
+              <div class="marquee-container">
+                <div class="marquee-item">
+                  <picture
+                    ><source
+                      srcset="
+                        ./src/img/bonus/bonus-01-1x.png 1x,
+                        ./src/img/bonus/bonus-01-2x.png 2x
+                      "
+                      width="320"
+                      height="auto" />
+                    <img
+                      class="bonus-image"
+                      src="./src/img/bonus/bonus-01-1x.png"
+                      alt="bonus"
+                      width="320"
+                      height="auto"
+                  /></picture>
+                  <p class="bonus-name">МК «Як побороти синдром самозванця»</p>
+                </div>
+              </div>
+              <div id="countdown-one" class="countdown">
+                <div class="countdown-number">
+                  <span class="minutes countdown-time"></span>
+                  <div class="countdown-label minutes-label"></div>
+                </div>
+                <div><span class="countdown-doubledot">:</span></div>
+                <div class="countdown-number">
+                  <span class="seconds countdown-time"></span>
+                  <div class="countdown-label seconds-label"></div>
+                </div>
+                <div><span class="countdown-doubledot">:</span></div>
+                <div class="countdown-number">
+                  <span class="milliseconds countdown-time"></span>
+                  <div class="countdown-label milliseconds-label"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="if-you">
+        <img
+          src="./src/img/if-you/star.png"
+          alt="star"
+          width="208"
+          class="if-you-star"
+        />
+        <div class="container">
+          <h2 class="title">Це рішення для вас, <span>якщо ви:</span></h2>
+          <ul class="list">
+            <li class="list-item">
+              <p class="item-number">[ 01 ]</p>
+              <p class="item-text">
+                <span>Ще не маєте курсу</span> або спроби запуску були не дуже
+                успішними
+              </p>
+              <img
+                src="./src/img/if-you/cirle-blue.png"
+                alt="cirle"
+                class="item-image"
+              />
+            </li>
+            <li class="list-item">
+              <p class="item-number">[ 02 ]</p>
+              <p class="item-text">
+                Хочете <span>протестувати запуск курсу без інвестицій</span> в
+                рекламу
+              </p>
+              <img
+                src="./src/img/if-you/cirle-yellow.png"
+                alt="cirle"
+                class="item-image"
+              />
+            </li>
+            <li class="list-item">
+              <p class="item-number">[ 03 ]</p>
+              <p class="item-text">
+                Боїтеся технічної складової, але
+                <span>хочете автоматизувати хоч деякі задачі</span>
+              </p>
+              <img
+                src="./src/img/if-you/cirle-blue.png"
+                alt="cirle"
+                class="item-image"
+              />
+            </li>
+            <li class="list-item">
+              <p class="item-number">[ 04 ]</p>
+              <p class="item-text">
+                Готові заробляти більше, але
+                <span>не знаєте як зараз масштабуватись</span>
+              </p>
+              <img
+                src="./src/img/if-you/cirle-yellow.png"
+                alt="cirle"
+                class="item-image"
+              />
+            </li>
+            <li class="list-item">
+              <p class="item-number">[ 05 ]</p>
+              <p class="item-text">
+                Мрієте працювати з платоспроможною
+                <span>аудиторією в високому чеку</span>
+              </p>
+              <img
+                src="./src/img/if-you/cirle-blue.png"
+                alt="cirle"
+                class="item-image"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-author">
+        <div class="container">
+          <ul class="list">
+            <li class="list-item">
+              <img
+                class="item-check"
+                src="./src/img/about-author/check.svg"
+                alt="check"
+                width="24"
+              />
+              <p class="item-text">Біля 80000 підписників в інстаграм</p>
+            </li>
+            <li class="list-item">
+              <img
+                class="item-check"
+                src="./src/img/about-author/check.svg"
+                alt="check"
+                width="24"
+              />
+              <p class="item-text">Зі мною створили і запустили 500+ курсів</p>
+            </li>
+            <li class="list-item">
+              <img
+                class="item-check"
+                src="./src/img/about-author/check.svg"
+                alt="check"
+                width="24"
+              />
+              <p class="item-text">Мої курси пройшли близко 5000 експертів </p>
+            </li>
+            <li class="list-item">
+              <img
+                class="item-check"
+                src="./src/img/about-author/check.svg"
+                alt="check"
+                width="24"
+              />
+              <p class="item-text">В ніші інфобізнесу дев’ятий рік</p>
+            </li>
+            <li class="list-item">
+              <img
+                class="item-check"
+                src="./src/img/about-author/check.svg"
+                alt="check"
+                width="24"
+              />
+              <p class="item-text">Працював з чеками від $4 до $6000 за курс</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-offer">
+        <img
+          class="lamp-img"
+          src="./src/img/about-offer/lamp-2x.png"
+          alt="decor"
+          width="123"
+        />
+        <img
+          class="option-img"
+          src="./src/img/about-offer/option-2x.png"
+          alt="decor"
+          width="123"
+        />
+        <img
+          class="stonks-img"
+          src="./src/img/about-offer/stonks-2x.png"
+          alt="decor"
+          width="123"
+        />
+        <img
+          class="timer-img"
+          src="./src/img/about-offer/timer-2x.png"
+          alt="decor"
+          width="123"
+        />
+        <div class="container">
+          <h2 class="title">
+            Про що ця пропозиція <span>і як виникла ідея</span>
+          </h2>
+          <p class="desc">
+            <span>За 9 років у сфері інфобізнесу</span> я допомагав експертам і
+            компаніям із різних ніш запускати і масштабувати продукти.
+            <span>Пройшов шлях</span> від маркетолога і проджекта до керівника і
+            партнера. Але всі ці роки мене не покидало відчуття: я
+            <span>можу зробити більше – не тільки для себе, а й для інших</span>
+          </p>
+          <ul class="list">
+            <li class="list-item">
+              Я протестував десятки інструментів і механік, щоб знайти
+              найефективніші
+            </li>
+            <li class="list-item">
+              Інвестував у найкраще і найдорожче навчання, яке тільки є на ринку
+            </li>
+            <li class="list-item">
+              Проходив через успіхи і невдачі, аби створити те, що справді
+              працює
+            </li>
+          </ul>
+          <p class="step-text">
+            На якомусь етапі я зрозумів: <br /><span
+              >час ділитися цим досвідом</span
+            >
+          </p>
+        </div>
+      </section>
+      <section class="i-created">
+        <img
+          src="./src/img/i-created/star-2x.png"
+          alt="star"
+          class="star-created"
+          width="208"
+        />
+        <img
+          src="./src/img/i-created/attention-2x.png"
+          alt="attention"
+          class="attention-created"
+          width="200"
+        />
+        <div class="container">
+          <h2 class="title-created">Що я створив <span>для вас</span></h2>
+          <ul class="created-list">
+            <li class="list-item">
+              <img
+                class="item-yellow"
+                src="./src/img/i-created/yellow-check.svg"
+                alt="check"
+              />
+              <p class="item-text">
+                <span>Готовий шлях,</span> який дозволить вам уникнути помилок і
+                скоротити роки експериментів до кількох місяців
+              </p>
+            </li>
+            <li class="list-item">
+              <img
+                class="item-yellow"
+                src="./src/img/i-created/yellow-check.svg"
+                alt="check"
+              />
+              <p class="item-text">
+                <span>Інструменти, які працюють</span> у будь-якій ніші, якщо ви
+                хочете створити свій освітній продукт і почати заробляти вже
+                зараз
+              </p>
+            </li>
+            <li class="list-item">
+              <img
+                class="item-yellow"
+                src="./src/img/i-created/yellow-check.svg"
+                alt="check"
+              />
+              <p class="item-text">
+                <span>Мій досвід,</span> упакований у зрозумілу і практичну
+                систему, щоб ви могли відразу впроваджувати його в свою роботу
+              </p>
+            </li>
+          </ul>
+          <h2 class="title-know">
+            Я знаю, що <br /><span>для вас важливо:</span>
+          </h2>
+          <ul class="created-list last">
+            <li class="know-item">
+              <img
+                class="item-blue"
+                src="./src/img/i-created/blue-check.svg"
+                alt="check"
+              />
+              <p class="item-know-text">
+                <span>Швидкий результат</span> – і я це врахував, щоб ви не
+                витрачали час на складні теорії
+              </p>
+            </li>
+            <li class="know-item">
+              <img
+                class="item-blue"
+                src="./src/img/i-created/blue-check.svg"
+                alt="check"
+              />
+              <p class="item-know-text">
+                <span>Ефективність</span> – кожен інструмент і кожна
+                рекомендація перевірені на практиці, а не в теорії
+              </p>
+            </li>
+            <li class="know-item">
+              <img
+                class="item-blue"
+                src="./src/img/i-created/blue-check.svg"
+                alt="check"
+              />
+              <p class="item-know-text">
+                <span>Доступність</span> – ви отримуєте найцінніше за вартість,
+                яка є просто “смішною” за такий об’єм матеріалів та інструментів
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="benefit">
+        <div class="container">
+          <h2 class="title">Ваша вигода</h2>
+          <p class="subtitle">Що ви отримаєте:</p>
+          <ul class="list">
+            <li class="list-item">
+              <div class="item-box">
+                <p class="item-text">
+                  Можливість масштабувати свою справу без зайвих витрат
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-box">
+                <p class="item-text">
+                  Навички створення та продажу курсів, за які аудиторія готова
+                  платити
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-box">
+                <p class="item-text">
+                  Економію часу: те, на що я витратив 9 років, ви зможете
+                  реалізувати за кілька місяців
+                </p>
+              </div>
+            </li>
+            <li class="list-item">
+              <div class="item-box">
+                <p class="item-text">
+                  Свободу і впевненість у тому, що ваш досвід стане джерелом
+                  стабільного доходу
+                </p>
+              </div>
+            </li>
+          </ul>
+          <p class="its-all">І все це – не за $2500 (100 000 грн),</p>
+          <p class="text">
+            як коштував лише один із курсів, які я купував,
+            <span>а за 990 грн. Це майже подарунок,</span> адже я хочу, щоб
+            якомога більше людей
+            <span>змогли скористатися цією можливістю</span>
+          </p>
+        </div>
+      </section>
+      <section class="bonuses-white">
+        <div class="container">
+          <h2 class="title">І бонуси!</h2>
+          <p class="text">
+            Тільки їхня цінність кратно перевищує ту саму, яку ви інвестуєте в
+            своє майбутнє. Це – моя вдячність за вашу довіру і стимул діяти
+            швидко, щоб не втратити цю можливість.
+          </p>
+          <p class="ready-text">
+            Все готово, щоб ви почали свій шлях до змін прямо зараз.
+            <span>Вирішуйте та приєднуйтесь!</span>
+          </p>
+          <div class="marquee-container">
+            <div class="marquee-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/bonus/bonus-01-1x.png 1x,
+                    ./src/img/bonus/bonus-01-2x.png 2x
+                  "
+                  width="320"
+                  height="auto" />
+                <img
+                  class="bonus-image"
+                  src="./src/img/bonus/bonus-01-1x.png"
+                  alt="bonus"
+                  width="320"
+                  height="auto"
+              /></picture>
+              <p class="bonus-name">МК «Як побороти синдром самозванця»</p>
+            </div>
+          </div>
+          <a class="btn blue" href=""
+            >детальніше <br />
+            <span>знижка -99%</span></a
+          >
+          <div id="countdown-two" class="countdown blue">
+            <div class="countdown-number">
+              <span class="minutes countdown-time"></span>
+              <div class="countdown-label minutes-label"></div>
+            </div>
+            <div><span class="countdown-doubledot">:</span></div>
+            <div class="countdown-number">
+              <span class="seconds countdown-time"></span>
+              <div class="countdown-label seconds-label"></div>
+            </div>
+            <div><span class="countdown-doubledot">:</span></div>
+            <div class="countdown-number">
+              <span class="milliseconds countdown-time"></span>
+              <div class="countdown-label milliseconds-label"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer"><div class="container"></div></footer>
+    <script src="./src/js/changeDate.js" type="module"></script>
+    <script src="./src/js/program.js" type="module"></script>
+    <script src="./src/js/questions.js" type="module"></script>
+    <script src="./src/js/timer.js" type="module"></script>
+    <script src="./src/js/marquee.js" type="module"></script>
   </body>
 </html>
