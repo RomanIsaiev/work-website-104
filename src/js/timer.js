@@ -62,3 +62,4 @@ function initializeClock(id, endtime) {
 const deadline = new Date(Date.parse(new Date()) + 10 * 60 * 1000);
 initializeClock('countdown-one', deadline);
 initializeClock('countdown-two', deadline);
+initializeClock('countdown-three', deadline);
