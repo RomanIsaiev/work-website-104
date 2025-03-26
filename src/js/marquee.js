@@ -2,7 +2,7 @@ import InfiniteMarquee from 'vanilla-infinite-marquee';
 
 new InfiniteMarquee({
   element: '.marquee-container',
-  speed: 100000,
+  speed: 50000,
   smoothEdges: false,
   direction: 'left',
   gap: '10px',
