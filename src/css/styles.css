@@ -1339,6 +1339,8 @@ body {
 }
 
 .program-list-item-container {
+  position: relative;
+  z-index: 999;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -1537,6 +1539,12 @@ body {
 .price span {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: line-through;
+}
+
+#kwiga-widget-1742931906000 {
+  margin-bottom: 20px;
+  border-radius: 14px;
+  border: 5px solid white;
 }
 
 .btn.buy {
