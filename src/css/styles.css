@@ -209,6 +209,7 @@ body {
   max-width: 320px;
   width: 100%;
   padding: 14px;
+  padding-top: 18px;
   border-radius: 10px;
   background: linear-gradient(90deg, #ffed90 0%, #ffcf24 100%);
   box-shadow: 2px 4px 0px 0px #e5b300;
@@ -1466,6 +1467,7 @@ body {
   height: 110px;
   width: 100%;
   max-width: 280px;
+  margin: 0 auto;
 }
 
 .additionaly .list-item:nth-child(1) .add-image {
